@@ -29,3 +29,6 @@ function redirectToB() {
     // Weiterleitung zur "b.html" 
     window.location.href = 'b.html';
 }
+
+exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
+exports.build = series(scssTask, jsTask);
