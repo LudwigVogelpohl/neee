@@ -57,7 +57,7 @@ button{
         .input2, .input3, .input4, .textarea {
             text-align: left;
             margin-left: 5px;
-            width: 50%;
+            width: 90%;
             
         }
         .textarea {
@@ -80,7 +80,7 @@ button{
                 position: absolute;
                 top: 0;
                 right: 0;
-                width: 50%;
+                width: 90%;
                 text-align: right;
             }
             #printSection .input2, #printSection .input3, #printSection .input4, #printSection .textarea {
