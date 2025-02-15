@@ -16,7 +16,7 @@
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
         <!-- Title -->
-        <span class="mdl-layout-title">Einstellungen</span>
+        <span class="mdl-layout-title">Neuer Brief</span>
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
@@ -39,13 +39,21 @@
     </div>
     <main class="mdl-layout__content">
       <div class="page-content">
-        
+        <div class="div-document">
+              
+            <form id="letterForm">
+                <input class="input-date" type="date" id="input1" placeholder="Eingabe 1">
+                <input type="text" id="input2" placeholder="Name/Nachname"><br><br>
+                <input type="text" id="input3" placeholder="Postleitzahl/Stadt"><br><br>
+                <input type="text" id="input4" placeholder="Straße/Hausnummer"><br><br>
+                <textarea id="textarea" placeholder="Text"></textarea><br><br>
+                <button type="button" onclick="saveData()">Speichern</button><br><br>
+                <button type="button" onclick="redirectToB()">Anzeigen</button>
+            </form>
+         </div>
         </div>
     </main>
   </div>
-
-    <script>
-
-    </script>
+  <script src="script.js"></script>
 </body>
 </html>
